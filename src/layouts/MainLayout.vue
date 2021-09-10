@@ -12,10 +12,9 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          De olho
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -28,7 +27,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Categorías
         </q-item-label>
 
         <EssentialLink
@@ -50,46 +49,28 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
+    title: 'Auxílio ao público',
     caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    icon: 'team',
+    link: ''
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Combate a corrupção',
+    caption: 'acompanhe todas movimentações de sua cidade',
+    icon: 'crash',
+    link: ''
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    title: 'Covid 19',
+    caption: 'Saúde e bem estar',
+    icon: 'fas fa-allergies',
+    link: ''
+  },
+  {
+    title: 'Projetos públicos',
+    caption: 'Consulte gastos, receita e muitos mais',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    link: ''
   }
 ];
 
