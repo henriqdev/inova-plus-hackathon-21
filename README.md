@@ -1,4 +1,4 @@
-# Inova Plus - De olho (inova-plus)
+# Quasar App (inova-plus-hackathon-21)
 
 A Quasar Framework app
 

@@ -139,8 +139,8 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Inova Plus - De olho`,
-        short_name: `Inova Plus - De olho`,
+        name: `Quasar App`,
+        short_name: `Quasar App`,
         description: `A Quasar Framework app`,
         display: 'standalone',
         orientation: 'portrait',
@@ -206,7 +206,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'inova-plus'
+        appId: 'inova-plus-hackathon-21'
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

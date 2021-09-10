@@ -1,9 +1,9 @@
 {
-  "name": "inova-plus",
+  "name": "inova-plus-hackathon-21",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Inova Plus - De olho",
-  "author": "inova plus developement",
+  "productName": "Quasar App",
+  "author": "inova plus",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
